@@ -1,0 +1,8 @@
+[{
+	"modid": "yoyo",
+	"name": "Yo-yo",
+	"description": "Adds a \"Yo-yo\" scaffolding/climbing block that automatically vanishes after a short period of time.",
+	"version": "${version}",
+	"mcversion": "${mcversion}"
+}]
+
