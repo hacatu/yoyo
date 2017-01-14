@@ -23,9 +23,6 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import java.util.Map;
 
-import hacatu.yoyo.proxy.CommonProxy;
-import hacatu.yoyo.proxy.ClientProxy;
-
 /**
  * Yo-yo adds an automatically vanishing scaffolding block to game.
  * 
@@ -47,9 +44,6 @@ public class Yoyo{
 	
 	@Mod.Instance(modID)
 	public static Yoyo instance;
-	
-	@SidedProxy(serverSide = "hacatu.yoyo.proxy.CommonProxy", clientSide = "hacatu.yoyo.proxy.ClientProxy")
-	public static CommonProxy proxy;
 	
 	public Yoyo(){
 		//nothing to do
